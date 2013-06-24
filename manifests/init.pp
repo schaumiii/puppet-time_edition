@@ -1,11 +1,11 @@
-# Public Install Quassel.app to /Applications
+# Public Install Time Edition.app to /Applications
 #
 # Examples
 #
-#   include quassel
-class quassel {
-  package { 'Quassel':
-    provider => 'appdmg',
-    source   => 'http://quassel-irc.org/pub/QuasselClient_MacOSX-x86_64_0.9.0.dmg',
+#   include time_edition
+class time_edition {
+  package { 'Time Edition':
+    provider => 'compressed_appdmg',
+    source   => 'http://downloads.sourceforge.net/timeedition/timeEdition1.1.6-macosx.dmg.zip?use_mirror=',
   }
 }
