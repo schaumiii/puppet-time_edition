@@ -1,9 +1,9 @@
-# Quassel Puppet Module for Boxen
+# Time Edition Puppet Module for Boxen
 
 ## Usage
 
 ```puppet
-include quassel
+include time_edition
 ```
 
 ## Required Puppet Modules
